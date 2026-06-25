@@ -1,0 +1,210 @@
+<html>
+<head>
+<title>PEDIDOS / REGISTROS</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<style>
+body{
+    background: linear-gradient(135deg,#ffe4f0,#e0f7ff);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+.navbar{
+    background: linear-gradient(90deg,#ff9acb,#a18bff) !important;
+}
+
+
+.container{
+    margin-top:40px;
+}
+
+
+form{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+
+font{
+    font-size:25px;
+}
+
+
+.form-control{
+    border-radius:15px;
+}
+
+
+.btn-primary{
+    background:#ff8fcf;
+    border:none;
+    border-radius:20px;
+}
+
+.btn-primary:hover{
+    background:#ff6fbf;
+}
+
+
+.btn-outline-success{
+    background:#ff8fcf;
+    border:none;
+    color:white;
+    border-radius:20px;
+}
+
+.btn-outline-success:hover{
+    background:#ff6fbf;
+}
+
+
+table{
+    background:#a18bff;
+    color:white;
+    border-radius:20px;
+}
+</style>
+
+</head>
+
+
+<body bgcolor="DCDCDC" text="#000000">
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="Index.html">🐻 Cute Bear Shop</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+        <li class="nav-item active">
+          <a class="nav-link" href="rodriguezpag1.html">ARTICULOS</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="rodriguezpag2.html">EDICION ESPECIAL</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="rodriguezpag3.html">PRENDAS DE ROPA</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="rodriguezpag4.html">REDES</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="rodriguezpag5.html">PEDIDOS</a>
+        </li>
+
+      </ul>
+
+      <!-- BUSCADOR -->
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-2" type="search" placeholder="Buscar...">
+        <button class="btn btn-outline-success">BUSCAR</button>
+      </form>
+
+    </div>
+</nav>
+
+<div class="container">
+<div class="row">
+<div class="col">
+
+<font color="red"><b>🧸 PEDIDOS - AGREGUE SUS DATOS</b></font>
+
+<form>
+
+<div class="form-row">
+
+<div class="form-group col-md-6">
+<label>Correo</label>
+<input type="email" class="form-control">
+</div>
+
+<div class="form-group col-md-6">
+<label>Contraseña</label>
+<input type="password" class="form-control">
+</div>
+
+</div>
+
+<div class="form-group">
+<label>Dirección</label>
+<input type="text" class="form-control" placeholder="1234 Main St">
+</div>
+
+<div class="form-group">
+<label>Dirección 2</label>
+<input type="text" class="form-control" placeholder="Departamento, etc">
+</div>
+
+<div class="form-row">
+
+<div class="form-group col-md-6">
+<label>Ciudad</label>
+<input type="text" class="form-control">
+</div>
+
+<div class="form-group col-md-4">
+<label>Estado</label>
+<select class="form-control">
+<option selected>Escoge...</option>
+<option>...</option>
+</select>
+</div>
+
+<div class="form-group col-md-2">
+<label>Código Postal</label>
+<input type="text" class="form-control">
+</div>
+
+</div>
+
+<div class="form-group">
+<div class="form-check">
+<input class="form-check-input" type="checkbox">
+<label class="form-check-label">Activar</label>
+</div>
+</div>
+
+<button type="submit" class="btn btn-primary">Enviar Datos</button>
+
+</form>
+
+</div>
+</div>
+</div>
+
+<br>
+
+<table width=50% align=center border=5>
+<tr align=center>
+<td><a href="index.html">INICIO</a></td>
+<td><a href="rodriguezpag1.html">ARTICULOS</a></td>
+<td><a href="rodriguezpag2.html">EDICION ESPECIAL</a></td>
+<td><a href="rodriguezpag3.html">PRENDAS DE ROPA</a></td>
+<td><a href="rodriguezpag4.html">REDES</a></td>
+<td><a href="rodriguezpag5.html">PEDIDOS</a></td>
+</tr>
+</table>
+
+<br>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
